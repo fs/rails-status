@@ -1,7 +1,7 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'rails-status/version'
+require 'rails_status/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
@@ -15,5 +15,6 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split($/)
 
-  s.add_dependency 'rails', '~> 3.2'
+  s.add_dependency 'rails', '~> 3.2.11'
+  s.add_development_dependency 'mysql2'
 end
