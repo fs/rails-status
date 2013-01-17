@@ -1,0 +1,6 @@
+.bundle/
+log/*.log
+pkg/
+vendor
+tmp
+bin
